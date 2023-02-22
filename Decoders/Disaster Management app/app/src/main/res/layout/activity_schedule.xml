@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".schedule">
+
+    <TextView
+        android:id="@+id/title"
+        android:background="#339966"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Ambulance Alert"
+        android:textColor="#ffffff"
+        android:gravity="center_horizontal"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/ask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Schedule the route"
+        android:textColor="#b90e0a"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/title"
+        android:textSize="35dp" />
+
+    <TextView
+        android:id="@+id/to"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To:"
+        android:textSize="40dp"
+        android:textColor="#000000"
+        android:layout_below="@+id/ask"
+        android:layout_marginTop="40dp"/>
+
+
+
+    <TextView
+        android:id="@+id/from"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="From:"
+        android:textSize="40dp"
+        android:layout_below="@+id/et_to"
+        android:textColor="#000000"
+        android:layout_marginTop="40dp"/>
+
+    <EditText
+        android:id="@+id/et_from"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/from"
+        android:textColor="#000000"
+        android:layout_marginTop="29dp"
+        android:backgroundTint="#000000" />
++9633
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_below="@+id/et_from"
+        android:layout_marginTop="40dp"
+   />
+
+   <EditText
+       android:id="@+id/et_to"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/to"
+       android:layout_marginTop="20dp"
+       android:textColor="#000000"
+       android:backgroundTint="#000000"
+       />
+
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/destination"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/drop_down"-->
+<!--        android:gravity="center_horizontal"-->
+<!--        android:textStyle="bold"-->
+<!--        android:layout_marginTop="50dp"-->
+<!--        android:textColor="#000000"-->
+<!--        android:text="Choose destination"-->
+<!--        android:textSize="40dp"-->
+<!--        />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/h1"-->
+<!--        android:layout_width="115dp"-->
+<!--        android:layout_height="100dp"-->
+<!--        android:backgroundTint="#339966"-->
+<!--        android:layout_marginLeft="50dp"-->
+<!--        android:layout_below="@+id/destination"-->
+<!--        android:text="Hospital1"-->
+<!--        android:layout_marginTop="40dp"/>-->
+
+<!--    <Button-->
+<!--        android:id="@+id/h2"-->
+<!--        android:layout_width="115dp"-->
+<!--        android:backgroundTint="#339966"-->
+<!--        android:layout_height="100dp"-->
+<!--        android:layout_below="@+id/destination"-->
+<!--        android:layout_toEndOf="@+id/h1"-->
+<!--        android:layout_marginLeft="30dp"-->
+<!--        android:text="Hospital 2"-->
+<!--        android:layout_marginTop="40dp"/>-->
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".register">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Ambulance Alert"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
+        android:background="#339966"
+        android:gravity="center_horizontal"/>
+
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_below="@+id/title"
+        android:layout_width="249dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="68dp"
+        android:text="Registeration"
+        android:textSize="40dp"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:id="@+id/logo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/text"
+        android:layout_marginLeft="90dp"
+        android:background="@drawable/ic_ambulance_svgrepo_com"/>
+
+    <EditText
+        android:id="@+id/get_adhaar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:layout_marginTop="58dp"
+        android:textColor="#000000"
+        android:hint="ADHAAR NO"
+        android:backgroundTint="#339966"
+        />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/get_adhaar"
+        android:layout_marginTop="10dp"
+        android:text="REGISTER"
+        android:backgroundTint="#339966"/>
+
+</RelativeLayout>
